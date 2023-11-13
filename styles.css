@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.abajo{
+    background: white;
+    padding: 15px 20px;
+}
+
+header.abajo nav ul li:hover{
+    border-bottom: 2px solid black;
+}
+
+header.abajo nav a{
+    color: black;
+}
+
+.queque{
+    font-weight: bold;
+    font-size: 7em;
+    letter-spacing: 5px;
+    display: grid;
+    place-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.queque h1{
+    text-align: center;
+}
+
+.queque h3{
+    font-size: 50px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+nav ul li{
+    padding: 6px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.queque{
+    width: 100%;
+    height: 100vh;
+    background: url(img/queque\ back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nosotros{
+    width: 100%;
+    height: 100vh;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros .contenedor{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nosotros .info h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.nosotros img{
+    height: 500px;
+}
+
+
+.equipo{
+    width: 100%;
+    height: 50vh;
+    background: rgb(223, 99, 99);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.equipo div{
+    text-align: center;
+}
+
+.equipo img{
+    width: 100%;
+    height: 180px;
+}
+
+.productos{
+    width: 100%;
+    height: 100vh;
+    background: rgb(104, 232, 143);
+}
+
+.redes{
+    width: 100%;
+    height: 50vh;
+    background: rgb(235, 135, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes h2{
+    text-align: center;
+}
+
+.redes div{
+    margin-top: 50px;
+    font-size: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
