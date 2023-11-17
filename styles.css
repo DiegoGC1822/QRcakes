@@ -78,7 +78,7 @@ nav ul li{
 }
 
 .nosotros{
-    width: 80%;
+    width: 100%;
     margin: 30px auto;
     background: skyblue;
     display: flex;
@@ -112,13 +112,11 @@ nav ul li{
 }
 
 .equipo{
-    width: 90%;
+    width: 100%;
     margin: 0 auto 30px auto;
     padding: 50px;
     background: rgb(223, 99, 99);
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 80px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
 }
