@@ -78,9 +78,8 @@ nav ul li{
 }
 
 .nosotros{
-    width: 100%;
+    width: 90%;
     margin: 30px auto;
-    background: skyblue;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -112,13 +111,20 @@ nav ul li{
 }
 
 .equipo{
-    width: 100%;
     margin: 0 auto 30px auto;
-    padding: 50px;
-    background: rgb(223, 99, 99);
+}
+
+.equipo .tittle{
+    background: skyblue;
+    padding: 5px;
+}
+
+.equipo .miembros{
+    background: aqua;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 30px;
 }
 
 .equipo div{
