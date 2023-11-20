@@ -24,5 +24,9 @@ enlacesMenu.forEach(enlace => {
     });
 });
 
+document.querySelector(".menu-btn").addEventListener("click", function(){
+    document.querySelector("header nav ul").classList.toggle("translate")
+})
+
 
 
