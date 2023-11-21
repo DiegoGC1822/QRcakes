@@ -143,6 +143,7 @@ nav ul li{
 
 .equipo img{
     height: 180px;
+    width: 170px;
 }
 
 .productos{
@@ -286,7 +287,7 @@ nav ul li{
         background: white;
         opacity: 0.9;
         transform: translateX(-400px);
-        transition: transform 0.7s ease-in-out;
+        transition: transform 0.5s ease-in-out;
     }
 
     .menu-btn{
